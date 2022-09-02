@@ -1,6 +1,6 @@
-module.exports = FISH_INFO = {
+FISH_INFO = {
   FISH_INFO_DATA: [
-      {
+  {
     "id": 4776,
     "name_en": "Malm Kelp",
     "name_ja": "マルムケルプ",
@@ -43892,3 +43892,24 @@ module.exports = FISH_INFO = {
   }
  ]
 }
+FISH_INFO.FISH_INFO_DATA.push({
+  "id": 999999999,
+  "name_en": "Fishcord Testfish",
+  "name_ja": "test",
+  "name_de": "test",
+  "name_fr": "test",
+  "name_ko": "test",
+  "icon": "001133",
+  "level": [
+    4,
+    0
+  ],
+  "time_restricted": true,
+  "weather_restricted": true,
+  "collectable": false,
+  "rarity": 1,
+  "record_en": "test",
+  "region_en": "test",
+  "zone_en": "test",
+})
+module.exports = FISH_INFO

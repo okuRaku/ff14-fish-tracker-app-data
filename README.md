@@ -11,17 +11,18 @@ const FISH_INFO = [
 ```
 with the following two lines:
 ```js
-module.exports = FISH_INFO = {
+FISH_INFO = {
   FISH_INFO_DATA: [
 ```
 and replace final line:
 ```js
  ];
 ```
-with two lines:
+with three lines:
 ```js
  ]
 }
+module.exports = FISH_INFO
 ```
 
 ## https://github.com/icykoneko/ff14-fish-tracker-app/blob/master/js/app/data.js
@@ -31,5 +32,9 @@ const DATA = {
 ```
 with the following line:
 ```js
-module.exports = DATA = {
+DATA = {
+```
+And add after final line:
+```js
+module.exports = DATA
 ```
