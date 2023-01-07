@@ -30,7 +30,7 @@ DATA = {
 DATA.FISH['999999999'] = 
   {
     "_id": 999999999, 
-    "previousWeatherSet": [7], 
+    "previousWeatherSet": [11], 
     "weatherSet": [8], 
     "startHour": 2, 
     "endHour": 6, 
