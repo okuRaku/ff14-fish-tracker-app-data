@@ -1,8 +1,8 @@
 # ff14-fish-tracker-app-data
 
-A place to store data files necessary for the Discord bot backend derived from https://github.com/icykoneko/ff14-fish-tracker-app
+A place to store data files necessary for the backend for the Discord bot Fisher's Intuition.  Update to this repo are deployed automatically.
 
-Two data files from above repo are utilized with the following adjustments:
+Two data files from CarbunclePlushy's tracker are utilized with the following adjustments:
 
 ## https://github.com/icykoneko/ff14-fish-tracker-app/blob/master/js/app/fish_info_data.js
 Replace first line:
@@ -38,3 +38,10 @@ And add after final line:
 ```js
 module.exports = DATA
 ```
+
+## Submitting an update with data used with [CarbyUtils.setFishConditions()](https://github.com/icykoneko/ff14-fish-tracker-app/wiki/Tips-for-New-Fish-Conditions-Research)
+
+1. Use CarbyUtils as normal, to update fish windows
+2. At the same console, type `DATA` and on the object that comes back, right click -> Copy object 
+3. Update `data.js` in this repo by replacing the object assigned to DATA with the copied object
+4. Commit the changes and submit a pull request to this repo.
