@@ -39475,11 +39475,11 @@ DATA = {
 DATA.FISH['999999999'] = 
   {
     "_id": 999999999, 
-    "previousWeatherSet": [11], 
-    "weatherSet": [8], 
-    "startHour": 2, 
-    "endHour": 6, 
-    "location": 128, 
+    "previousWeatherSet": [3], 
+    "weatherSet": [7], 
+    "startHour": 16, 
+    "endHour": 0, 
+    "location": 263, 
     "bestCatchPath": [], "predators": {}, "intuitionLength": null, "patch": 0, "folklore": null, "collectable": null, "fishEyes": true, "bigFish": false, "snagging": null, "hookset": "Precision", "tug": "light", "gig": null, "aquarium": {"water": "saltwater", "size": 2}, "dataMissing": null
   }
 DATA.ITEMS['999999999'] = 
