@@ -1,6 +1,6 @@
 # ff14-fish-tracker-app-data
 
-A place to store data files necessary for the Discord bot backend derived from https://github.com/icykoneko/ff14-fish-tracker-app
+A place to store data files necessary for the backend for the Discord bot Fisher's Intuition.  Update to this repo are deployed automatically.
 
 Two data files from above repo are utilized with the following adjustments:
 
