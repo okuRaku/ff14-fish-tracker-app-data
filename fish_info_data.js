@@ -49983,7 +49983,7 @@ FISH_INFO = {
     "collectable": false,
     "rarity": 2,
     "record_en": "Space",
-    "record_ja": "Space"
+    "record_ja": "Space",
     "record_de": "Space",
     "record_fr": "Space",
     "record_ko": "Coastlines",
